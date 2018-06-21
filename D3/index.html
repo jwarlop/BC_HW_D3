@@ -1,0 +1,35 @@
+<!doctype html>
+<! John M Warlop>
+<! UCSD Bootcamp Spring 2018>
+<! D3 Assignment>
+<html lang="en" class="no-js">
+<head>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/app.js"></script> 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(drawSeriesChart);</script>
+</head>
+<body>
+    <h2>
+        Analysis
+    </h2>
+    <br>
+    The chart below shows income vs poverty level.  The red signifies those states that voted 
+    Republican in the 2016 election for president.  The blue signified those states that voted
+    Democrat in the last election.  The negative correlation is strong at -.78.  This chart shows that
+    Democratic states tend towards the upper right quadrant and the Republican states tend toward the 
+    lower left quadrant.  
+    <br>
+    <br>
+    The desirable place to be on this chart would be towards the bottom of chart.  The blue states 
+    tend towards the undesirable quadrant.
+    <br>
+    <br>
+    The limosine liberal states and politcal/finacial centers tend to have higher poverty levels 
+    given higher income levels.  Fly-over country tend to have lower levels of poverty in spite of
+    the fact they have lower incomes.
+    <br>
+    <div id="series_chart_div" style="width: 1200px; height: 1200px;"></div>
+</body>
+</html>
